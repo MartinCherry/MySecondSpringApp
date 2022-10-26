@@ -1,5 +1,6 @@
-package io.codelex.mysecondspringapp;
+package io.codelex.mysecondspringapp.time;
 
+import io.codelex.mysecondspringapp.text.TextService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,16 +11,16 @@ import java.time.format.DateTimeFormatter;
 @RestController
 public class TimeController {
 
-    TextService service;
+    TimeService service;
 
-    public TimeController(TextService service) {
+    public TimeController(TimeService service) {
         this.service = service;
     }
 
     @GetMapping("/getTime")
     @CrossOrigin()
     public String getTime() {
-        return LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm"));
+        return service.getTime();
     }
 
 

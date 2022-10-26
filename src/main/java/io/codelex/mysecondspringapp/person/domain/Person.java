@@ -1,4 +1,4 @@
-package io.codelex.mysecondspringapp.domain;
+package io.codelex.mysecondspringapp.person.domain;
 
 import org.springframework.lang.NonNull;
 

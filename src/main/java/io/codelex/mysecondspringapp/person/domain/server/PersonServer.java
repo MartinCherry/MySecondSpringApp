@@ -1,6 +1,6 @@
-package io.codelex.mysecondspringapp.server;
+package io.codelex.mysecondspringapp.person.domain.server;
 
-import io.codelex.mysecondspringapp.domain.Person;
+import io.codelex.mysecondspringapp.person.domain.Person;
 
 import java.util.ArrayList;
 import java.util.List;

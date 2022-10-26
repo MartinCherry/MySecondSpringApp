@@ -1,6 +1,6 @@
-package io.codelex.mysecondspringapp;
+package io.codelex.mysecondspringapp.text;
 
-import io.codelex.mysecondspringapp.server.TextServer;
+import io.codelex.mysecondspringapp.text.server.TextServer;
 import org.springframework.stereotype.Repository;
 
 @Repository

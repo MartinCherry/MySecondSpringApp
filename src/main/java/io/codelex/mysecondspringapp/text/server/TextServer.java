@@ -1,4 +1,4 @@
-package io.codelex.mysecondspringapp.server;
+package io.codelex.mysecondspringapp.text.server;
 
 import java.util.ArrayList;
 import java.util.List;

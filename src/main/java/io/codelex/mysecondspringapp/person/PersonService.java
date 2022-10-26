@@ -1,6 +1,6 @@
-package io.codelex.mysecondspringapp;
+package io.codelex.mysecondspringapp.person;
 
-import io.codelex.mysecondspringapp.domain.Person;
+import io.codelex.mysecondspringapp.person.domain.Person;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

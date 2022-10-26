@@ -1,4 +1,4 @@
-package io.codelex.mysecondspringapp;
+package io.codelex.mysecondspringapp.text;
 
 import org.springframework.stereotype.Service;
 
